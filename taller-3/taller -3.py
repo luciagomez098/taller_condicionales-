@@ -8,14 +8,13 @@ Precio_Costo = int(input (" Por favor ingrese el precio que le costo el producto
 
 if Precio_Costo < 3000:
 
-    GANANCIA = Precio_Costo *0.15
+    GANANCIA = Precio_Costo*0.15
 
 elif Precio_Costo <= 6000:
 
-    GANANCIA = Precio_Costo*0.25
+    GANANCIA = Precio_Costo *500
 else:
-    GANANCIA = 500
-
+    GANANCIA = Precio_Costo *0.25 
 PRECIO_VENTA = (GANANCIA + Precio_Costo)
 #Salida
 print ("el producto adquirido se debe vender a",PRECIO_VENTA,)
